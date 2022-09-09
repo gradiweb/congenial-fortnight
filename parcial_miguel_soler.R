@@ -1,0 +1,5 @@
+install.packages("readxl")
+library("readxl")
+flowers <- read_excel("/Users/soler/Documents/personal/usta/exploratory/parcial/parcial/Clientes-Flores.xlsx")
+## View(flowers)
+attach(flowers)
