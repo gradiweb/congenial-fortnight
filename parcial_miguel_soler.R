@@ -11,6 +11,10 @@ as.factor(`Day  Purchase`)
 
 
 ##3
+install.packages("crosstable")
+data(flowers, package = "datasets")
+CrossTable(`Method  Payment`, `Day  Purchase`, expected = TRUE)
+
 
 
 ##4
