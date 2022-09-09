@@ -12,6 +12,7 @@ as.factor(`Day  Purchase`)
 
 ##3
 install.packages("crosstable")
+library(crosstable)
 data(flowers, package = "datasets")
 CrossTable(`Method  Payment`, `Day  Purchase`, expected = TRUE)
 
